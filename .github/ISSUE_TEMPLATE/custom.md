@@ -2,7 +2,7 @@
 name: Custom issue template
 about: 'Create a detailed issue with a tree-like structure for AlgoDocHub '
 title: add
-labels: ''
+labels: add, good first issue
 assignees: ''
 
 ---
