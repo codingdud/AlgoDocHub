@@ -14,9 +14,8 @@ Thank you for your interest in contributing to AlgoDocHub. Your contributions he
    - Open a terminal window.
    - Use `git clone https://github.com/<your-username>/AlgoDocHub.git` to clone your forked repository locally.
 
-3. **Install Dependencies:**
-   - Navigate to your cloned directory using `cd AlgoDocHub`.
-   - Run `npm install` to install the required Node.js packages.
+3. **Navigate to the Directory:**
+   - Use `cd AlgoDocHub` to navigate to the project's root directory.
 
 4. **Create a Branch:**
    - Use `git checkout -b <your-branch-name>` to create a new branch for your changes.
@@ -75,11 +74,11 @@ fix: Correct linked list insertion logic [Fixes #45]
 
 ## Development Guidelines
 
-- **Code Style:** Adhere to consistent coding style throughout the project. Consider using a linter or code formatter like ESLint or Prettier.
-- **Testing:** Write unit tests for your changes using a testing framework like Jest or Mocha to ensure code quality and prevent regressions.
+- **Code Style:** Adhere to consistent coding style throughout the project. Consider using a linter or code formatter specific to C++.
+- **Testing:** Write unit tests for your changes using a testing framework like Google Test or Catch2 to ensure code quality and prevent regressions.
 - **Documentation:** Update relevant documentation (README.md, algorithm explanations, etc.) to reflect new features or bug fixes.
 - **Commit Messages:** Craft clear and concise commit messages that describe your changes. Utilize a format like "feat: Add bubble sort algorithm" or "fix: Resolve linked list bug".
-- **Type Safety (Optional):** If the project doesn't currently use TypeScript, consider incorporating it for improved type checking and maintainability.
+- **Type Safety (Optional):** Ensure your C++ code adheres to best practices for type safety and memory management.
 
 ## Contributing Methods
 
