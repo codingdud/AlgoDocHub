@@ -19,7 +19,7 @@ Thank you for your interest in contributing to AlgoDocHub. Your contributions he
 
 4. **Create a Branch:**
    - Use `git checkout -b <your-branch-name>` to create a new branch for your changes.
-   - Use descriptive branch names (e.g., `dsa/feature-add-sorting-algorithm`, `bugfix/fix-array-typo`).
+   - Use descriptive branch names (e.g., `algorithms/bitmanipulation/add-cp-questions`, `bugfix/fix-array-typo`).
 
 ## Branch Naming Conventions for Contributors
 
@@ -41,7 +41,7 @@ Here's a common branch naming convention for contributors in Git projects, tailo
 **Example:**
 
 ```
-add/dsa-bubble-sort             // Adds bubble sort algorithm
+add: cp-question for bitManipulation added [add #16]             // Adds bubble sort algorithm
 fix/bst-insertion               // Fixes insertion logic in BST implementation
 update/documentation-readme     // Updates README with new instructions
 solve/issue-45-linked-list-bug  // Solves issue #45 related to linked list bug
