@@ -26,7 +26,7 @@ To get started with AlgoDocHub, simply navigate through our organized directory 
 
 - [Algorithms](#algorithms)
   - [BinarySearch](#binarysearch)
-  - [BitManipulation](BitManipulation)
+  - [BitManipulation](https://github.com/codingdud/AlgoDocHub/tree/main/Algorithms/BitManiputaion)
   - [DynamicProgramming](#dynamicprogramming)
   - [Greedy](#greedy)
   - [NumberTheory](#numbertheory)
