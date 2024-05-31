@@ -6,31 +6,34 @@ Welcome to AlgoDocHub, your comprehensive resource for mastering algorithms and 
 
 To get started with AlgoDocHub, simply navigate through our organized directory structure:
 
-### Beginner DSA (Data Structures and Algorithms)
-- **Arrays**
-- **Basic Mathematics**
-- **Searching**
-- **Sorting**
-- **Strings**
-  
-### Data Structures
-- **Binary Search Trees (BST)**
-- **Heaps**
-- **Linked Lists**
-- **Matrices**
-- **Stacks and Queues**
-- **Trees**
+***
 
-### Algorithms
-- **BinarySearch**
-- **BitManipulation**
-- **DynamicProgramming**
-- **Greedy**
-- **NumberTheory**
-- **PrefixSum**
-- **SortingArrayString**
-- **TwoPointer**
 
+- [Beginner DSA (Data Structures and Algorithms)](https://github.com/codingdud/AlgoDocHub/wiki/Beginner-DSA)
+  - [Arrays](https://github.com/codingdud/AlgoDocHub/wiki/Arrays)
+  - [Basic Mathematics](#basic-mathematics)
+  - [Searching](#searching)
+  - [Sorting](#sorting)
+  - [Strings](#strings)
+
+- [Data Structures](#data-structures)
+  - [Binary Search Trees (BST)](#binary-search-trees-bst)
+  - [Heaps](#heaps)
+  - [Linked Lists](#linked-lists)
+  - [Matrices](#matrices)
+  - [Stacks and Queues](#stacks-and-queues)
+  - [Trees](#trees)
+
+- [Algorithms](#algorithms)
+  - [BinarySearch](#binarysearch)
+  - [BitManipulation](BitManipulation)
+  - [DynamicProgramming](#dynamicprogramming)
+  - [Greedy](#greedy)
+  - [NumberTheory](#numbertheory)
+  - [PrefixSum](#prefixsum)
+  - [SortingArrayString](#sortingarraystring)
+  - [TwoPointer](#twopointer)
+    
 Each directory contains a wealth of resources, including documentation, examples, and explanations, to help you understand and implement various algorithms and data structures.
 
 ## Contributing
