@@ -20,7 +20,12 @@ Thank you for your interest in contributing to AlgoDocHub. Your contributions he
 4. **Create a Branch:**
    - Use `git checkout -b <your-branch-name>` to create a new branch for your changes.
    - Use descriptive branch names (e.g., `algorithms/bitmanipulation/add-cp-questions`, `bugfix/fix-array-typo`).
-
+5. **rebase**
+   - git switch main
+   - git pull
+   - git checkout -b foo
+   - git rebase main
+   > use rebae for local branch only
 ## Branch Naming Conventions for Contributors
 
 Here's a common branch naming convention for contributors in Git projects, tailored for data structure and algorithmic contributions:
