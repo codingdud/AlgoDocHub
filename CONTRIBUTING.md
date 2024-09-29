@@ -12,7 +12,7 @@ Thank you for your interest in contributing to AlgoDocHub. Your contributions he
 
 2. **Clone Your Fork:**
    - Open a terminal window.
-   - Use `git clone https://github.com/<your-username>/AlgoDocHub.git` to clone your forked repository locally.
+   - Use `git clone git@github.com:codingdud/AlgoDocHub.git` to clone your forked repository locally.
 
 3. **Navigate to the Directory:**
    - Use `cd AlgoDocHub` to navigate to the project's root directory.
@@ -21,10 +21,12 @@ Thank you for your interest in contributing to AlgoDocHub. Your contributions he
    - Use `git checkout -b <your-branch-name>` to create a new branch for your changes.
    - Use descriptive branch names (e.g., `algorithms/bitmanipulation/add-cp-questions`, `bugfix/fix-array-typo`).
 5. **rebase**
+   - git stash
    - git switch main
    - git pull
-   - git checkout -b foo
+   - git checkout -b foo || git switch foo
    - git rebase main
+   - git pop
    > use rebae for local branch only
 ## Branch Naming Conventions for Contributors
 
@@ -47,9 +49,9 @@ Here's a common branch naming convention for contributors in Git projects, tailo
 
 ```
 add: cp-question for bitManipulation added [add #16]             // Adds bubble sort algorithm
-fix/bst-insertion               // Fixes insertion logic in BST implementation
-update/documentation-readme     // Updates README with new instructions
-solve/issue-45-linked-list-bug  // Solves issue #45 related to linked list bug
+fix/bst-insertion [#69]              // Fixes insertion logic in BST implementation
+update/documentation-readme[#12]    // Updates README with new instructions
+solve/issue-45-linked-list-bug [#45] // Solves issue #45 related to linked list bug
 chore/update-dev-dependencies   // Updates development dependencies
 test/improve-unit-tests         // Improves unit test coverage
 ```
@@ -100,8 +102,8 @@ fix: Correct linked list insertion logic [Fixes #45]
 ## Pull Request Process
 
 1. **Push Your Changes:**
-   - Commit your changes with meaningful messages using `git commit -m "<your-message>"`.
-   - Push your branch to your forked repository using `git push origin <your-branch-name>`.
+   - Commit your changes with meaningful messages using `git commit -m "<your-message> [#<issue no>]"`.
+   - Push your branch to your forked repository using `git push origin <your-branch-name> [#issue no]`.
 
 2. **Create a Pull Request:**
    - Go to your forked repository on GitHub.
