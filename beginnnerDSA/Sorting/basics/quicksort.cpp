@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<time.h>
 using namespace std;
 time_t t;
 void printarr(int arr[],int l,int h){
@@ -21,7 +22,7 @@ int partion(int arr[],int l,int h){
     return j;
 }
 int rpartion(int arr[],int l,int h){
-    srand((unsigned)time(&t))
+    srand((unsigned)time(&t));
     int mid=(rand()%(h-l))+l;
     int i=l,j=h,piv=arr[mid];
     while(i<j){
@@ -39,13 +40,13 @@ int rpartion(int arr[],int l,int h){
 void quicksort(int arr[],int l,int h){
     if(l<h){
         int mid=rpartion(arr,l,h);
-        quicksort(arr,l,mid);
+        quicksort(arr,l,mid-1);
         quicksort(arr,mid+1,h);
     }
 }
 
 int main(){
-    int arr[]={16,18,16,18,16,18,16,18};
-    quicksort(arr,0,8);
-    printarr(arr,0,8);
+    int arr[]={16,18,16,18,16,18,16,18,1};
+    quicksort(arr,0,9);
+    printarr(arr,0,9);
 }

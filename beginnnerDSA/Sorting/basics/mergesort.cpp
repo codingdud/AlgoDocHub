@@ -4,19 +4,25 @@ using namespace std;
 //merge two shorted arr
 void merge(int arr[],int l,int m,int r){
     int left=l,right=m+1;
+    int* temp = new int[r - l + 1];
+    int k = 0;
     while(left<=m&&right<=r){
-        if(arr[left]<arr[right]){
-            left++;
-        }
-        else{
-            swap(arr[left],arr[right]);
-            left++;
+        if(arr[left]<=arr[right]){
+            temp[k++] = arr[left++];
+        } else {
+            temp[k++] = arr[right++];
         }
     }
-    for(int i=l;i<=r;i++){
-        cout<<arr[i]<<" ";
+    while(left<=m){
+        temp[k++] = arr[left++];
     }
-    cout<<"\n";
+    while(right<=r){
+        temp[k++] = arr[right++];
+    }
+    for(int i=0;i<k;i++){
+        arr[l+i] = temp[i];
+    }
+    delete[] temp;
 }
 //devide and conqure
 void mergesort(int arr[],int l,int r){
@@ -33,7 +39,7 @@ void printarr(int arr[],int n){
     }
 }
 int main(){
-    int arr[]={4,3,2,1,6};
-    mergesort(arr,0,4);
-    printarr(arr,5);
+    int arr[]={1,2,9,10,3,4,5};
+    mergesort(arr,0,6);
+    printarr(arr,7);
 }
