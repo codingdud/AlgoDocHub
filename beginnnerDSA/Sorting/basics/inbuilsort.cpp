@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <vector>
 #include <iostream>
+#include<bits/stdc++.h>
 
 int main() {
     std::vector<std::vector<int>> matrix = {
@@ -10,8 +11,8 @@ int main() {
     };
 
     std::sort(matrix.begin(), matrix.end(), [](const std::vector<int>& a, const std::vector<int>& b) {
-        int sumA = std::accumulate(a.begin(), a.end(), 0); // Sum of elements in row a
-        int sumB = std::accumulate(b.begin(), b.end(), 0); // Sum of elements in row b
+        int sumA = accumulate(a.begin(), a.end(), 0); // Sum of elements in row a
+        int sumB = accumulate(b.begin(), b.end(), 0); // Sum of elements in row b
         return sumA > sumB; // Sort by descending order of row sums
     });
 
