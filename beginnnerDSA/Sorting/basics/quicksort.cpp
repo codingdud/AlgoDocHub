@@ -39,7 +39,7 @@ int rpartion(int arr[],int l,int h){
 
 void quicksort(int arr[],int l,int h){
     if(l<h){
-        int mid=rpartion(arr,l,h);
+        int mid=partion(arr,l,h);
         quicksort(arr,l,mid-1);
         quicksort(arr,mid+1,h);
     }
