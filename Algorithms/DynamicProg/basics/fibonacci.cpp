@@ -4,7 +4,7 @@ using namespace std;
 int fun(int n,unordered_map<int,int> &mp){
     if(n<=2) return 1;
     if(mp.find(n)!=mp.end()) return mp[n];
-    return fun(n-1,mp)+fun(n-2,mp);
+    return mp[n]=fun(n-1,mp)+fun(n-2,mp);
 }
 int fun2(int n,unordered_map<int,int> &mp){
     mp[0]=1;
